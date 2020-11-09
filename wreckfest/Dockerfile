@@ -16,5 +16,6 @@ VOLUME /steam/wreckfest/mods
 WORKDIR /steam/wreckfest
 ADD start*.sh /steam/wreckfest/
 ADD createConfig.sh /steam/wreckfest/
+ADD updateServer.sh /steam/wreckfest/
 ADD installAndUpdateMods.sh /steam/wreckfest/
 CMD ["./start-wreckfest.sh"]
